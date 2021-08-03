@@ -50,12 +50,26 @@ video{
   height: 100%;
   content: "";
 }
+.imgxs{
+  display: none;
+}
 @media (min-width: 0px) and (max-width: 767px) {
   .logo {
-    width: 90%;
+    width: 270px;
+    height: 100%;
+    object-fit: contain;
   }
   .coming {
     font-size: .9rem;
     margin-bottom: 1rem;
+}
+video{
+  display: none;
+}
+.imgxs{
+  width: 100%;
+    height: 100vh;
+    display: block;
+    object-fit: cover;
 }
 }
